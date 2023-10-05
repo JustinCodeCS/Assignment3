@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style for the big borders */
+.big-border {
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.helo{
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
+    float: left;
+}
+
+#socials{
+    border-radius: 2;
+    text-align: center;
+    width: 10;
+}
+.RightPro{
+    height: 10;
+    margin:5%;
+    padding:1%;
+}
+
+/* Style for the top section of the first big border */
+.top-section {
+    text-align: center;
+}
+
+/* Style for the bottom section of the first big border */
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style for the profile picture in the first big border */
+.big-border img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
+
+}
+
+/* Style for the contact links in the first big border */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
+}
+
+.education-box,
+.experience-box {
+    text-align: center;
+    margin: 0 20px 20px 0; /* Add margin to create spacing between boxes */
+    border: 2px solid #000;
+    width: 150px; /* Set a fixed width for each box */
+    display: inline-block; /* Display as inline-block to align horizontally */
+    box-sizing: border-box;
+}
+
+.education-box img,
+.experience-box img {
+    max-width: 100%;
+    height: auto; /* Allow the height to adjust automatically based on image dimensions */
+}
+
+/* Clear margin for the last education box to prevent extra spacing */
+.education-box:last-child {
+    margin-right: 0;
+}
